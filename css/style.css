@@ -1,0 +1,162 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.column-left {
+    float: left; width: 28%;
+    background-color: #CB5A5A;
+    height: 100%;
+    min-width: 300px;
+    max-height: 125%;
+    margin-left: 1%;
+    display:flex;
+    flex-direction: column;
+    top: 10px;
+    position: relative;
+}
+
+.column-middle {
+    display: inline-flex ; width: 35%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
+    min-width: 400px;
+    
+    
+}
+
+.column-right{
+    float: right; width:33%;
+    margin-right: 1%;
+    min-width: 400px;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+   
+}
+
+
+.myName {
+    font-size: 36;
+    margin-left: 36px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sectorTitle {
+    font-size: 30;
+    margin-left: 36px;
+    color: white;
+}
+
+.sideText {
+    font-size: 24;
+    margin-left: 36px;
+    color: white;
+    max-width: 400;
+}
+
+.educationSection{
+    display: flex;
+    flex-direction: column;
+    top:-20px;
+    position: relative;
+    height: inherit;
+}
+#educationInfo{
+    top: -50px;
+    position: relative
+}
+#educationInfo2{
+    top:-70px;
+    position: relative;
+}
+#age{
+    top:-90px;
+    position: relative;
+}
+#occupation{
+    top:-110px;
+    position: relative;
+}
+#occ1{
+    top:-160px;
+    position: relative;
+}
+#occ2{
+    top:-190px;
+    position: relative;
+}
+#linkTitle{
+    top:-210px;
+    position: relative;
+}
+
+.linkContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    top:-240px;
+    position: relative;
+
+}
+.links {
+    font-size: 24;
+    margin-left: 36px;
+    color: white;
+    padding: 2px;
+    
+}
+
+.logos{
+    display: flex;
+    flex-direction: column;
+    top:-40%;
+    left:-15%;
+    position: relative;
+}
+.logo{
+    padding: 2px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+.funfactsContainer{
+    position: relative;
+    width: 400px;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: medium solid #CB5A5A;
+    top: 40px;
+}
+
+.funfactsContainer h2 {
+    position: absolute;
+    display: flex;
+    top: 0px;
+    color: #CB5A5A;
+    font-size: 24;
+    left: 40px;
+}
+
+.rightText{
+    font-size: 18;
+}
+
+.bigName {
+    font-size: 45;
+    color: #CB5A5A;
+}
+
+.content{
+    max-width: 400px;
+    top: 50px;
+    position: relative;
+}
